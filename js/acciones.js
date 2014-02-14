@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$('#B1').tap(function(){
 		navigator.notification.beep(1);
 	});//tap B1
-	$('#B1').tap(function(){
+	$('#B2').tap(function(){
 		navigator.notification.vibrate(500);
 	});
 	});   //deviceready
